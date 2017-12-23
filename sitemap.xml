@@ -3,88 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/content-organisation/logo/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/getting-start/</loc>
-  </url>
-  
-  <url>
-    <loc>/getting-start/installation/</loc>
-  </url>
-  
-  <url>
-    <loc>/content-organisation/extramenu/</loc>
-    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/getting-start/configuration/</loc>
-  </url>
-  
-  <url>
-    <loc>/content-organisation/customize-style/</loc>
-  </url>
-  
-  <url>
-    <loc>/create-page/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/content-organisation/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/search/</loc>
-  </url>
-  
-  <url>
-    <loc>/create-page/homepage/</loc>
-    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/create-page/page-images/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/create-page/myslide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/create-page/page-slide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/_footer/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/_header/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/2015/07/hello-r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/06/welcome-to-tranquilpeak-0.4.3-beta/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/05/elements-showcase/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/05/cover-image-showcase/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/03/highlighted-code-showcase/</loc>
+    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/10/tags-plugins-showcase/</loc>
+    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/hidden-social-section-showcase/</loc>
+    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/hidden-tag-section-showcase/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/hidden-pagination-showcase/</loc>
+    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/video-integrations-showcase/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/chinese-test/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/02/image-gallery-showcase/</loc>
+    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/01/japanese-test/</loc>
+    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/archives/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -93,15 +78,99 @@
   </url>
   
   <url>
-    <loc>/credits/</loc>
+    <loc>/tags/chinese/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/content-organisation/customize-style/disable/</loc>
+    <loc>/tags/cover-image/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/showcase/</loc>
+    <loc>/tags/dailymotion/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/disqus/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/features/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github-theme/</loc>
+    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/google-analytics/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gravatar/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hexo-theme/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/highlight-code/</loc>
+    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/html-elements/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/image-gallery/</loc>
+    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/japanese/</loc>
+    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pagination/</loc>
+    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -135,117 +204,69 @@
   </url>
   
   <url>
-    <loc>/tags/tag1/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/categories/releases/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tag2/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/tags/responsive/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social/</loc>
+    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag-plugins/</loc>
+    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/content-organisation/customize-style/themestyle/</loc>
+    <loc>/tags/tags/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/content-organisation/customize-style/theme-variants/</loc>
+    <loc>/tags/test/</loc>
+    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/shortcodes/alert/</loc>
+    <loc>/categories/tranquilpeak/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/shortcodes/attachments/</loc>
+    <loc>/tags/videos-integration/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/shortcodes/button/</loc>
+    <loc>/tags/vimeo/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/shortcodes/children/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/excerpt/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/excerpt-include/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/icon/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/notice/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-3/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-4/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/test/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-2/test3/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/panel/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/revealjs/</loc>
+    <loc>/tags/youtube/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

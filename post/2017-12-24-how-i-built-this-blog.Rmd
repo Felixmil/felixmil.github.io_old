@@ -2,20 +2,21 @@
 title: How I built this blog
 author: Félix
 date: '2017-12-23'
-slug: how-i-built-this-blog
 categories:
-  - Blog
+  - Blog maintenance
 tags:
   - how to
   - blog
-  - hugo
-  - github
-  - Rmarkdown
   - blogdown
+  - rmarkdown
+  - github
+slug: how-i-built-this-blog
+thumbnailImage: https://talesofr.files.wordpress.com/2017/08/hexbins.png?w=584
+coverimage : https://talesofr.files.wordpress.com/2017/08/hexbins.png?w=584
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval=F)
+knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 ```
 
 # Material

@@ -3,19 +3,10 @@ title: How I built this blog
 author: Félix
 date: '2017-12-23'
 slug: how-i-built-this-blog
-categories:
-  - Blog
-tags:
-  - how to
-  - blog
-  - hugo
-  - github
-  - Rmarkdown
-  - blogdown
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval=F)
+knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 ```
 
 # Material

@@ -3,71 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/12/how-i-built-this-blog/</loc>
+    <loc>https://felixmil.github.io/2017/12/how-i-built-this-blog/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archives/</loc>
+    <loc>https://felixmil.github.io/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2017-12-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>https://felixmil.github.io/tags/blog/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/bloging/</loc>
+    <loc>https://felixmil.github.io/tags/blogdown/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://felixmil.github.io/categories/bloging/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://felixmil.github.io/categories/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/github/</loc>
+    <loc>https://felixmil.github.io/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/how-to/</loc>
+    <loc>https://felixmil.github.io/tags/github/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://felixmil.github.io/tags/how-to/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rmarkdown/</loc>
+    <loc>https://felixmil.github.io/post/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://felixmil.github.io/tags/rmarkdown/</loc>
+    <lastmod>2017-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://felixmil.github.io/tags/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

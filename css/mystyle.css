@@ -1,7 +1,7 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Heebo|Kavivanar|Montserrat:300|Open+Sans|Raleway:600');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Kavivanar|Montserrat|Open+Sans|Raleway:600');
 
 .sidebar-profile .sidebar-profile-picture {
     width: 120px;
@@ -11,7 +11,7 @@
 }
 
 body, h1 {
-	font-family: 'Kavivanar|', cursive;
+	font-family: 'Kavivanar', cursive;
 }
 
 body, h2, h3, h4, h5, h6 {

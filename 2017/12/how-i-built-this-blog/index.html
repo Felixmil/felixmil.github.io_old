@@ -30,16 +30,14 @@
     
     <meta name="description" content="haha
 MaterialUsed : https://tclavelle.github.io/blog/blogdown_github/ https://bookdown.org/yihui/blogdown/github-pages.html *https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/
-How to1 create 2 repo username/source username/username.github.io 2 clone repo on computer and remove readme files
-2 start new R project 3 project option -&gt; website, select source as base directory 4 load necessary libraries
-# Load blogdown package and install Hugolibrary(blogdown)install_hugo()5 choose a theme 6 set “source” as working directory 7 create site
-# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)8 add folowing lines in config.">
+How tocreate 2 repo username/source username/username.github.ioclone repo on computer and remove readme files
+start new R projectproject option -&gt; website, select source as base directoryload necessary libraries
+# Load blogdown package and install Hugolibrary(blogdown)install_hugo()choose a themeset “source” as working directorycreate site# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)add folowing lines in config.">
     <meta property="og:description" content="haha
 MaterialUsed : https://tclavelle.github.io/blog/blogdown_github/ https://bookdown.org/yihui/blogdown/github-pages.html *https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/
-How to1 create 2 repo username/source username/username.github.io 2 clone repo on computer and remove readme files
-2 start new R project 3 project option -&gt; website, select source as base directory 4 load necessary libraries
-# Load blogdown package and install Hugolibrary(blogdown)install_hugo()5 choose a theme 6 set “source” as working directory 7 create site
-# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)8 add folowing lines in config.">
+How tocreate 2 repo username/source username/username.github.ioclone repo on computer and remove readme files
+start new R projectproject option -&gt; website, select source as base directoryload necessary libraries
+# Load blogdown package and install Hugolibrary(blogdown)install_hugo()choose a themeset “source” as working directorycreate site# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)add folowing lines in config.">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="How I built this blog">
     <meta property="og:url" content="/2017/12/how-i-built-this-blog/">
@@ -48,10 +46,9 @@
     <meta name="twitter:title" content="Discoveries of an Adventure-R">
     <meta name="twitter:description" content="haha
 MaterialUsed : https://tclavelle.github.io/blog/blogdown_github/ https://bookdown.org/yihui/blogdown/github-pages.html *https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/
-How to1 create 2 repo username/source username/username.github.io 2 clone repo on computer and remove readme files
-2 start new R project 3 project option -&gt; website, select source as base directory 4 load necessary libraries
-# Load blogdown package and install Hugolibrary(blogdown)install_hugo()5 choose a theme 6 set “source” as working directory 7 create site
-# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)8 add folowing lines in config.">
+How tocreate 2 repo username/source username/username.github.ioclone repo on computer and remove readme files
+start new R projectproject option -&gt; website, select source as base directoryload necessary libraries
+# Load blogdown package and install Hugolibrary(blogdown)install_hugo()choose a themeset “source” as working directorycreate site# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)add folowing lines in config.">
     
       <meta name="twitter:creator" content="@Felxosaurus">
     
@@ -211,6 +208,16 @@
 
   <li class="sidebar-button">
     
+      <a class="sidebar-button-link " href="https://trello.com/b/wl3Vk33A" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-trello"></i>
+      
+      <span class="sidebar-button-desc">Project&#39;s Trello</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
       <a class="sidebar-button-link " href="https://felixmil.github.io/index.xml">
     
       <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
@@ -251,7 +258,7 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://felixmil.github.io/categories/bloging">Bloging</a>
+      <a class="category-link" href="https://felixmil.github.io/categories/blogging">Blogging</a>
     
   
 
@@ -281,22 +288,37 @@
 </div>
 <div id="how-to" class="section level1">
 <h1>How to</h1>
-<p>1 create 2 repo <em>username/source </em>username/username.github.io 2 clone repo on computer and remove readme files</p>
-<p>2 start new R project 3 project option -&gt; website, select source as base directory 4 load necessary libraries</p>
+<ol style="list-style-type: decimal">
+<li>create 2 repo <em>username/source </em>username/username.github.io</li>
+<li><p>clone repo on computer and remove readme files</p></li>
+<li>start new R project</li>
+<li>project option -&gt; website, select source as base directory</li>
+<li><p>load necessary libraries</p></li>
+</ol>
 <pre class="r"><code># Load blogdown package and install Hugo
 library(blogdown)
 install_hugo()</code></pre>
-<p>5 choose a theme 6 set “source” as working directory 7 create site</p>
+<ol start="6" style="list-style-type: decimal">
+<li>choose a theme</li>
+<li>set “source” as working directory</li>
+<li>create site</li>
+</ol>
 <pre class="r"><code># Create new site in our recently cloned blogdown repository
 new_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,
          format = &#39;toml&#39;)</code></pre>
-<p>8 add folowing lines in config.toml and update the url</p>
+<ol start="9" style="list-style-type: decimal">
+<li>add folowing lines in config.toml and update the url</li>
+</ol>
 <pre class="r"><code>publishDir = &quot;X:/.../username.github.io&quot;
 themesdir = &quot;X:/.../source/themes&quot;
 baseURL = &quot;https://username.github.io/&quot;</code></pre>
-<p>9 build the site</p>
+<ol start="10" style="list-style-type: decimal">
+<li>build the site</li>
+</ol>
 <pre class="r"><code>build_site()</code></pre>
-<p>10 in Terminal, type</p>
+<ol start="11" style="list-style-type: decimal">
+<li>in Terminal (git code), type</li>
+</ol>
 <pre class="git"><code>cd X:/.../username.github.io
 
 git add *
@@ -304,7 +326,9 @@ git add *
 git commit -m &quot;update ID&quot;
 
 git push origin master</code></pre>
-<p>11 go to <a href="https://username.github.io/" class="uri">https://username.github.io/</a> in browser</p>
+<ol start="12" style="list-style-type: decimal">
+<li>go to <a href="https://username.github.io/" class="uri">https://username.github.io/</a> in browser</li>
+</ol>
 </div>
 
               
@@ -520,7 +544,7 @@ git push origin master</code></pre>
       <div id="about-card-location">
         <i class="fa fa-map-marker"></i>
         <br/>
-        France
+        Paris, France
       </div>
     
   </div>
@@ -558,10 +582,9 @@ git push origin master</code></pre>
               </span>
               <div class="media-content hide-xs font-merryweather">haha
 MaterialUsed : https://tclavelle.github.io/blog/blogdown_github/ https://bookdown.org/yihui/blogdown/github-pages.html *https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/
-How to1 create 2 repo username/source username/username.github.io 2 clone repo on computer and remove readme files
-2 start new R project 3 project option -&gt; website, select source as base directory 4 load necessary libraries
-# Load blogdown package and install Hugolibrary(blogdown)install_hugo()5 choose a theme 6 set “source” as working directory 7 create site
-# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)8 add folowing lines in config.</div>
+How tocreate 2 repo username/source username/username.github.ioclone repo on computer and remove readme files
+start new R projectproject option -&gt; website, select source as base directoryload necessary libraries
+# Load blogdown package and install Hugolibrary(blogdown)install_hugo()choose a themeset “source” as working directorycreate site# Create new site in our recently cloned blogdown repositorynew_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,format = &#39;toml&#39;)add folowing lines in config.</div>
             </div>
             <div style="clear:both;"></div>
             <hr>

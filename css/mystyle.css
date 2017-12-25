@@ -3,11 +3,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Kranky|Montserrat|Raleway');
 
-body, h1 html {
+body, h1 {
     font-family: 'Fredericka the Great', cursive;
 }
 
-body, h2, h3, h4, h5, h6, html {
+body, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body, h2, h3, h4, h5, h6, html {
     font-family: 'Montserrat', sans-serif;
     color: #5d686f;
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 380;
     overflow: hidden;
     -webkit-hypens: auto;
     -moz-hypens: auto;
@@ -42,6 +42,11 @@ body, h2, h3, h4, h5, h6, html {
     margin: 0 auto 20px;
     color: #fff;
     text-shadow: 1px 6px 1px rgba(0,0,0,.9);
+}
+
+.post-header-cover .post-header .post-title {
+    font-size: 6rem;
+    line-height: 1.5em;
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px)

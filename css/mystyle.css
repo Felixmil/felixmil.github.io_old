@@ -1,10 +1,10 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Flamenco|Kranky|Montserrat|Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Kranky|Montserrat|Open+Sans|Patua+One|Raleway');
 
 body, h1 {
-	font-family: 'Flamenco', cursive;
+	font-family: 'Patua One', cursive;
 }
 
 body, h2, h3, h4, h5, h6 {
@@ -29,7 +29,7 @@ body, h2, h3, h4, h5, h6 {
     font-size: 5rem;
     line-height: 55px;
     margin: 0;
-    font-family: 'Kranky', cursive;
+    font-family: 'Heebo', sans-serif;
 }
 
 .header-title .header-title-link {
@@ -42,8 +42,8 @@ body, h2, h3, h4, h5, h6 {
     margin: 0 auto 20px;
     color: #fff;
     text-shadow: 1px 6px 1px rgba(0,0,0,.9);
-    font-size: 6rem;
-    line-height: 1.5em;
+    font-size: 4em;
+    line-height: 2em;
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px)

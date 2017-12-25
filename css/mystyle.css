@@ -1,7 +1,7 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat:300|Open+Sans|Open+Sans+Condensed:700|Raleway:600');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat|Open+Sans|Open+Sans+Condensed:700|Raleway:600');
 
 .sidebar-profile .sidebar-profile-picture {
     width: 120px;
@@ -67,9 +67,9 @@ h1 {
      font-family: 'Heebo', sans-serif;
     font-size: 1.8rem;
     color: #fff!important;
-    font-weight: 400;
+    font-weight: 450;
     letter-spacing: .05em;
-    text-shadow: 0px 2px 2px rgba(0,0,0,.9);
+    text-shadow: 0px 2px 1px rgba(0,0,0,.9);
     margin: 0 auto;
 }
 

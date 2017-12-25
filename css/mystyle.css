@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
 body, h1, h2, h3, h4, h5, h6, html {
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 .post-header-cover .post-header .post-title {
@@ -21,7 +22,7 @@ h1 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .post-header-cover .post-header .post-meta {

@@ -1,6 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+body, h1, h2, h3, h4, h5, h6, html {
+    font-family: 'Cabin Sketch', cursive;
+}
 
 .post-header-cover .post-header .post-title {
     max-width: 750px;

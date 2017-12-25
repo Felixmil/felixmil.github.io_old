@@ -1,7 +1,7 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Kranky');
 
 body, h1 html {
     font-family: 'Fredericka the Great', cursive;
@@ -9,6 +9,19 @@ body, h1 html {
 
 body, h1, h2, h3, h4, h5, h6, html {
     font-family: 'Fredericka the Great', cursive;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 55px;
+    margin: 0;
+    font-family: 'Kranky', cursive;
+}
+
+.header-title .header-title-link {
+    color: #485a54;
+    font-weight: 100;
 }
 
 .post-header-cover .post-header .post-title {

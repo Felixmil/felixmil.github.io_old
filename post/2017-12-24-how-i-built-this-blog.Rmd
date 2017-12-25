@@ -12,7 +12,7 @@ tags:
   - github
 slug: how-i-built-this-blog
 thumbnailImage: https://talesofr.files.wordpress.com/2017/08/hexbins.png?w=584
-coverimage : blog.jpg
+coverimage : "D:/Documents/#02 PROJECTS/MINING/GitHub/source/static/img/blog.jpg"
 thumbnailImagePosition : left
 ---
 

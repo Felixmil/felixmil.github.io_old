@@ -2,6 +2,24 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
 
+.post-header-cover .post-header .post-title {
+    max-width: 750px;
+    margin: 0 auto 20px;
+    color: #fff;
+    text-shadow: 1px 4px 1px rgba(0,0,0,.9);
+}
+
+.post-header-cover .post-header .post-meta {
+    max-width: 750px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.6rem;
+    color: #fff!important;
+    font-weight: 400;
+    letter-spacing: .05em;
+    text-shadow: 0px 2px 2px rgba(0,0,0,.9);
+    margin: 0 auto;
+}
+
 .input-lg {
   font-size: 30px;
 }

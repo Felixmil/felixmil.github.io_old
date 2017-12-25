@@ -1,14 +1,14 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Kranky');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Kranky|Montserrat');
 
 body, h1 html {
     font-family: 'Fredericka the Great', cursive;
 }
 
 body, h2, h3, h4, h5, h6, html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-title {

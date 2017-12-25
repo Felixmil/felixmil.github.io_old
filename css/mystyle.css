@@ -3,6 +3,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
+body, h1 html {
+    font-family: 'Fredericka the Great', cursive;
+}
+
 body, h1, h2, h3, h4, h5, h6, html {
     font-family: 'Fredericka the Great', cursive;
 }
@@ -17,11 +21,11 @@ body, h1, h2, h3, h4, h5, h6, html {
 @media only screen and (max-width: 1023px) and (min-width: 768px)
 style-jsjn0006w…naj8.min.css:1
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .post-header-cover .post-header .post-meta {

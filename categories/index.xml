@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Discoveries of an Adventure-R</title>
-    <link>https://felixmil.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Discoveries of an Adventure-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://felixmil.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bloging</title>
-      <link>https://felixmil.github.io/categories/bloging/</link>
+      <link>/categories/bloging/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/categories/bloging/</guid>
+      <guid>/categories/bloging/</guid>
       <description></description>
     </item>
     

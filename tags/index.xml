@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Discoveries of an Adventure-R</title>
-    <link>https://felixmil.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Discoveries of an Adventure-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://felixmil.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>https://felixmil.github.io/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blogdown</title>
-      <link>https://felixmil.github.io/tags/blogdown/</link>
+      <link>/tags/blogdown/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/tags/blogdown/</guid>
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://felixmil.github.io/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How To</title>
-      <link>https://felixmil.github.io/tags/how-to/</link>
+      <link>/tags/how-to/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/tags/how-to/</guid>
+      <guid>/tags/how-to/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rmarkdown</title>
-      <link>https://felixmil.github.io/tags/rmarkdown/</link>
+      <link>/tags/rmarkdown/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/tags/rmarkdown/</guid>
+      <guid>/tags/rmarkdown/</guid>
       <description></description>
     </item>
     

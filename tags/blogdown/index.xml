@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogdown on Discoveries of an Adventure-R</title>
-    <link>https://felixmil.github.io/tags/blogdown/</link>
+    <link>/tags/blogdown/</link>
     <description>Recent content in Blogdown on Discoveries of an Adventure-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://felixmil.github.io/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I built this blog</title>
-      <link>https://felixmil.github.io/2017/12/how-i-built-this-blog/</link>
+      <link>/2017/12/how-i-built-this-blog/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/2017/12/how-i-built-this-blog/</guid>
+      <guid>/2017/12/how-i-built-this-blog/</guid>
       <description>haha
 MaterialUsed : https://tclavelle.github.io/blog/blogdown_github/ https://bookdown.org/yihui/blogdown/github-pages.html *https://talesofr.wordpress.com/2017/08/18/starting-a-rmarkdown-blog-with-bookdown-hugo-github/
 How to1 create 2 repo username/source username/username.github.io 2 clone repo on computer and remove readme files

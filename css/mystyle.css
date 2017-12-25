@@ -1,10 +1,10 @@
 /* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Heebo|Kranky|Montserrat|Open+Sans|Patua+One|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Kranky|Montserrat|Open+Sans|Permanent+Marker|Raleway');
 
 body, h1 {
-	font-family: 'Patua One', cursive;
+	font-family: 'Permanent+Marker', cursive;
 }
 
 body, h2, h3, h4, h5, h6 {

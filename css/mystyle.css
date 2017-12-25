@@ -7,8 +7,8 @@ body, h1 html {
     font-family: 'Fredericka the Great', cursive;
 }
 
-body, h1, h2, h3, h4, h5, h6, html {
-    font-family: 'Fredericka the Great', cursive;
+body, h2, h3, h4, h5, h6, html {
+    font-family: 'Open Sans';
 }
 
 .header-title {

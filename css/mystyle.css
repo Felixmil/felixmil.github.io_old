@@ -1,75 +1,22 @@
-/* @import url('https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'); may conflict with default theme*/
+/* @import url('https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch'); may conflict with default theme*/
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); /*google icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /*font awesome icons*/
-@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat|Open+Sans|Open+Sans+Condensed:700|Raleway:600');
-
-.sidebar-profile .sidebar-profile-picture {
-    width: 120px;
-    height: 120px;
-    border-radius: 120px;
-    margin-bottom: 5px;
-}
-body, h1 {
-	font-family: 'Open Sans Condensed' , sans-serif;
-}
-
-body, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
-}
-
-.post .post-content {
-    text-rendering: optimizelegibility;
-    letter-spacing: -.3px;
-    font-family: 'Montserrat', sans-serif;
-    color: #444e54;
-    margin-top: 20px;
-    font-weight: 400;
-    overflow: hidden;
-    -webkit-hypens: auto;
-    -moz-hypens: auto;
-    hypens: auto;
-}
-
-.header-title {
-    text-align: center;
-    font-size: 5rem;
-    line-height: 55px;
-    margin: 0;
-    font-family: 'Heebo', sans-serif;
-}
-
-.header-title .header-title-link {
-    color: #485a54;
-    font-weight: 300;
-}
 
 .post-header-cover .post-header .post-title {
     max-width: 750px;
     margin: 0 auto 20px;
     color: #fff;
-    text-shadow: 0px 5px 2px rgba(0,0,0,.9);
-    font-size: 5em;
-    line-height: 2.5em;
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px)
-style-jsjn0006w…naj8.min.css:1
-h1 {
-    font-size: 3rem;
-}
-
-h1 {
-    font-size: 4rem;
+    text-shadow: 1px 8px 1px rgba(0,0,0,.9);
 }
 
 .post-header-cover .post-header .post-meta {
     max-width: 750px;
-     font-family: 'Heebo', sans-serif;
-    font-size: 1.8rem;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.6rem;
     color: #fff!important;
-    font-weight: 450;
+    font-weight: 400;
     letter-spacing: .05em;
-    text-shadow: 0px 2px 1px rgba(0,0,0,.9);
+    text-shadow: 0px 2px 2px rgba(0,0,0,.9);
     margin: 0 auto;
 }
 
@@ -126,9 +73,9 @@ a:link {
 } 
 a:visited {
     color: #478ca7;
-     text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
     color: #82b5c9;
-    text-decoration: underline;
+    text-decoration: none;
 }

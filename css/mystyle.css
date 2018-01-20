@@ -17,6 +17,13 @@ body, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+{{ with .Description }}
+      {{ $.Scratch.Set "summary" (markdownify .) }}
+    {{ else }}
+      {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
+    {{ end }}
+    {{ $.Scratch.Get "summary" }}
+
 .post .post-content {
     text-rendering: optimizelegibility;
     letter-spacing: -.3px;

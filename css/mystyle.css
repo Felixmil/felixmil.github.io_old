@@ -9,33 +9,44 @@
     border-radius: 120px;
     margin-bottom: 5px;
 }
-body, h1 {
+h1 {
 	font-family: 'Open Sans Condensed' , sans-serif;
 }
 
-body, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
-{{ with .Description }}
-      {{ $.Scratch.Set "summary" (markdownify .) }}
-    {{ else }}
-      {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-    {{ end }}
-    {{ $.Scratch.Get "summary" }}
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6em;
+}
 
+
+.main-content-wrap {
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 .post .post-content {
     text-rendering: optimizelegibility;
     letter-spacing: -.3px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #444e54;
-    margin-top: 20px;
+    margin-top: 8px;
     font-weight: 400;
     overflow: hidden;
     -webkit-hypens: auto;
     -moz-hypens: auto;
     hypens: auto;
+font-size: 1.5rem
 }
+
+
+
+
 
 .header-title {
     text-align: center;
@@ -51,13 +62,14 @@ body, h2, h3, h4, h5, h6 {
 }
 
 .post-header-cover .post-header .post-title {
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto 20px;
     color: #fff;
     text-shadow: 0px 5px 2px rgba(0,0,0,.9);
     font-size: 5em;
     line-height: 2.5em;
 }
+
 
 @media only screen and (max-width: 1023px) and (min-width: 768px)
 style-jsjn0006w…naj8.min.css:1
@@ -70,7 +82,7 @@ h1 {
 }
 
 .post-header-cover .post-header .post-meta {
-    max-width: 750px;
+    max-width: 900px;
      font-family: 'Heebo', sans-serif;
     font-size: 1.8rem;
     color: #fff!important;
@@ -91,6 +103,14 @@ h1 {
 }
 .texttt {
   font-family: monospace;
+}
+
+.postShorten .postShorten-header .postShorten-title {
+    margin: 0;
+    word-break: initial;
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.2em;
 }
 .alert {
 padding: 15px;

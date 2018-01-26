@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Datavisualisation</title>
+      <link>https://felixmil.github.io/categories/datavisualisation/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixmil.github.io/categories/datavisualisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Discovery</title>
+      <link>https://felixmil.github.io/categories/knowledge-discovery/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixmil.github.io/categories/knowledge-discovery/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

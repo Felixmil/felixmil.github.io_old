@@ -3,22 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://felixmil.github.io/2018/01/test3/</loc>
-    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://felixmil.github.io/2018/01/first-article-and-entry-for-r-dataisbeautiful-dataviz/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://felixmil.github.io/2017/12/how-i-built-this-blog/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://felixmil.github.io/1/01/</loc>
   </url>
   
   <url>
@@ -51,8 +42,14 @@
   </url>
   
   <url>
+    <loc>https://felixmil.github.io/categories/datavisualisation/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://felixmil.github.io/</loc>
-    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,14 +66,38 @@
   </url>
   
   <url>
+    <loc>https://felixmil.github.io/categories/knowledge-discovery/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://felixmil.github.io/post/</loc>
-    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://felixmil.github.io/tags/r/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://felixmil.github.io/tags/reddit/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://felixmil.github.io/tags/rmarkdown/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://felixmil.github.io/tags/tableau/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Discoveries of an Adventure-R</title>
+    <title>Blog on Discoveries of an AdventureR</title>
     <link>https://felixmil.github.io/tags/blog/</link>
-    <description>Recent content in Blog on Discoveries of an Adventure-R</description>
+    <description>Recent content in Blog on Discoveries of an AdventureR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2018 - Now, Félix MIL; feel free to share cite source please.</copyright>
     <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://felixmil.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How I built this blog</title>
-      <link>https://felixmil.github.io/2017/12/how-i-built-this-blog/</link>
+      <title>How I built this blog using R, Blogdown and Hugo</title>
+      <link>https://felixmil.github.io/blog/2017/12/23/2017-12-24-how-i-built-this-blog/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://felixmil.github.io/2017/12/how-i-built-this-blog/</guid>
+      <guid>https://felixmil.github.io/blog/2017/12/23/2017-12-24-how-i-built-this-blog/</guid>
       <description>MaterialUsed :
 *https://tclavelle.github.io/blog/blogdown_github/
 *https://bookdown.org/yihui/blogdown/github-pages.html

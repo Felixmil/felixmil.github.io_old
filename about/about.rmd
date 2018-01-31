@@ -1,0 +1,10 @@
++++
+title = "about"
+id = "about"
+keywords = ["R","Datavisualisation","Knowledge discovery"]
+date="January 31, 2018"
++++
+
+# About me
+
+test1

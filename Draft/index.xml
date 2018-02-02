@@ -1,28 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Drafts on Discoveries of an Adventure-R</title>
-    <link>https://felixmil.github.io/draft/</link>
-    <description>Recent content in Drafts on Discoveries of an Adventure-R</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://felixmil.github.io/draft/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>First article and Entry for r/dataisbeautiful DataViz</title>
-      <link>https://felixmil.github.io/draft/first-article-and-entry-for-r-dataisbeautiful-dataviz/</link>
-      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://felixmil.github.io/draft/first-article-and-entry-for-r-dataisbeautiful-dataviz/</guid>
-      <description>test 
-ObjectivesAs first article on this R and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018.
-RulesThis month and the data source is a .htm webpage containing several algae growthrates according to light and temperature conditions.
-How I work on thisFor this project I used :
-R forData importatationData wrangling and cleaningFinal analysisTableau PublicData explorationDetailed data dashboardSo let’s start with R !</description>
-    </item>
-    
-  </channel>
-</rss>

@@ -174,7 +174,9 @@
 <div id="how-to" class="section level1">
 <h1>How to</h1>
 <ol style="list-style-type: decimal">
-<li>create 2 repo <em>username/source </em>username/username.github.io</li>
+<li>create 2 repo
+<em>username/source
+</em>username/username.github.io</li>
 <li>clone repo on computer and remove readme files</li>
 <li>start new R project</li>
 <li>project option -&gt; website, select source as base directory</li>
@@ -217,19 +219,16 @@ git push origin master</code></pre>
 </div>
 <div id="update" class="section level1">
 <h1>Update</h1>
-<div id="serving-site" class="section level3">
-<h3>Serving site</h3>
+<p>###Serving site</p>
 <p>there is a bug when serving site, to solve it, I use the following code</p>
 <pre class="r"><code>install.packages(c(&quot;processx&quot;, &quot;later&quot;))
 options(blogdown.generator.server = TRUE)</code></pre>
-</div>
-<div id="summary-is-way-to-long" class="section level3">
-<h3>Summary is way to long !</h3>
+<p>###Summary is way to long !</p>
 <p>update layout/Summary.html to optimize Summary readability:</p>
-<p>since <code>&lt;!--more--&gt;</code> does not work with Rmarkdown + Blogdown + Hugo, I modified the theme file. {{.Summary}} became</p>
+<p>since <code>&lt;!--more--&gt;</code> does not work with Rmarkdown + Blogdown + Hugo, I modified the theme file.
+{{.Summary}} became</p>
 <pre class="r"><code>{{ if gt (len .Summary) 200 }}{{slicestr .Summary 0 200}} {{else}} {{.Summary}} {{end}} &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;postShorten-excerpt_link link&quot;&gt;[...] continue reading &lt;/a&gt;</code></pre>
 <p>source : <a href="https://discourse.gohugo.io/t/limit-the-summary/4103/8" class="uri">https://discourse.gohugo.io/t/limit-the-summary/4103/8</a></p>
-</div>
 </div>
 
                         </div>
@@ -298,27 +297,27 @@ options(blogdown.generator.server = TRUE)</code></pre>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/">
+                        <a href="https://felixmil.github.io/blog/2018/02/25/2018-02-25-submission-for-r-dataisbeautiful-dataviz-battle-of-february/">
                           
-                            <img src="https://felixmil.github.io/img/Articles/Reddit-alien.png" class="img-responsivefooter" alt="First article and Submission for r/dataisbeautiful DataViz Battle">
+                            <img src="https://felixmil.github.io/img/Articles/datart%20februrary.png" class="img-responsivefooter" alt="Submission for r/dataisbeautiful Dataviz Battle of February">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/">First article and Submission for r/dataisbeautiful DataViz Battle</a></h5>
+                        <h5><a href="https://felixmil.github.io/blog/2018/02/25/2018-02-25-submission-for-r-dataisbeautiful-dataviz-battle-of-february/">Submission for r/dataisbeautiful Dataviz Battle of February</a></h5>
                     </div>
                 </div>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://felixmil.github.io/blog/2017/12/23/2017-12-24-how-i-built-this-blog/">
+                        <a href="https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/">
                           
-                            <img src="https://felixmil.github.io/img/Articles/blog.jpg" class="img-responsivefooter" alt="How I built this blog using R, Blogdown and Hugo">
+                            <img src="https://felixmil.github.io/img/Articles/Reddit-alien.png" class="img-responsivefooter" alt="First article and Submission for r/dataisbeautiful DataViz Battle of January">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://felixmil.github.io/blog/2017/12/23/2017-12-24-how-i-built-this-blog/">How I built this blog using R, Blogdown and Hugo</a></h5>
+                        <h5><a href="https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/">First article and Submission for r/dataisbeautiful DataViz Battle of January</a></h5>
                     </div>
                 </div>
                 

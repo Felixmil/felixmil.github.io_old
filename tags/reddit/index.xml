@@ -6,20 +6,33 @@
     <description>Recent content in Reddit on Discoveries of an AdventureR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://felixmil.github.io/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>First article and Submission for r/dataisbeautiful DataViz Battle</title>
+      <title>Submission for r/dataisbeautiful Dataviz Battle of February</title>
+      <link>https://felixmil.github.io/blog/2018/02/25/2018-02-25-submission-for-r-dataisbeautiful-dataviz-battle-of-february/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixmil.github.io/blog/2018/02/25/2018-02-25-submission-for-r-dataisbeautiful-dataviz-battle-of-february/</guid>
+      <description>This post reports the development process I carried for the DataViz battle of February 2018. The rules can be found in the link.
+Raw DataThis month, the data source is a on a github repo. It contains all same-sex marriage legal status for each states of the USA from 1995 to 2015.
+Import Data (from github)Found how to do it at Github/Opetchey
+library(RCurl)library(tidyverse)raw_data &amp;lt;- as_data_frame(read.</description>
+    </item>
+    
+    <item>
+      <title>First article and Submission for r/dataisbeautiful DataViz Battle of January</title>
       <link>https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/</link>
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/</guid>
-      <description>About this projectAs first article on this R, datascience and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018. The rules can be find in the link.
-DataThis month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
-How I work on thisFor this project I used :</description>
+      <description>As first article on this R, datascience and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018. The rules can be found in the link.
+DataThis month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
+How I worked on thisFor this project I used :
+R forData importationData wrangling and cleaningModel analysisTableauData explorationGenerate the data dashboardSo let’s start with R !</description>
     </item>
     
   </channel>

@@ -110,7 +110,7 @@ ggplot(data) +
 ```
 Alphabetical order is practical to find a State one's want more details on, but it is also more difficult to contextualize the information as global trends tends to fade into categorical complexity (here, the 50 states). Also, it is impossible to recreate the shapes we can see in the count and proportional graphs since states are fixed on the y axis.
 
-## Final datavisulisation
+## Final data Viz
 ### Ordering States
 I decided to compromise by adding an ordering method based on legal status frequencies for each states.
 ```{r }

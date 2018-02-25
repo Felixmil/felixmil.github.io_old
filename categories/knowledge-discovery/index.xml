@@ -12,14 +12,15 @@
     
     
     <item>
-      <title>First article and Submission for r/dataisbeautiful DataViz Battle</title>
+      <title>First article and Submission for r/dataisbeautiful DataViz Battle of January</title>
       <link>https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/</link>
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/</guid>
-      <description>About this projectAs first article on this R, datascience and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018. The rules can be find in the link.
-DataThis month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
-How I work on thisFor this project I used :</description>
+      <description>As first article on this R, datascience and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018. The rules can be found in the link.
+DataThis month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
+How I worked on thisFor this project I used :
+R forData importationData wrangling and cleaningModel analysisTableauData explorationGenerate the data dashboardSo let’s start with R !</description>
     </item>
     
   </channel>

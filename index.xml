@@ -24,12 +24,13 @@ library(RCurl)library(tidyverse)raw_data &amp;lt;- as_data_frame(read.csv(text
     </item>
     
     <item>
-      <title>about me</title>
+      <title></title>
       <link>https://felixmil.github.io/about/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://felixmil.github.io/about/</guid>
-      <description>test1</description>
+      <description>@import url(&amp;lsquo;https://fonts.googleapis.com/css?family=Rasa:700&#39;); .about { font-style: italic; font-size:13rem; text-align:center; font-family: Helvetica Neue, serif; color:black; font-weight:900; } .about-title { font-size:3.5rem; text-align:left; font-family: Roboto; color:black; font-weight:500; } .about-txt { font-size:2.25rem; text-align:left; color:black; font-family: Helvetica Neue; color:#333333; } 
+Bonjour.  WHO AM I ?  Please, come back later for more details... or Follow me !</description>
     </item>
     
     <item>

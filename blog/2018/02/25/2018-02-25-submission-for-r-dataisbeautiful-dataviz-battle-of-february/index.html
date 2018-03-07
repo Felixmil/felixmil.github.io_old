@@ -283,7 +283,7 @@ That’s an odd interesting chart !!</p>
 <h2>States background, year by year</h2>
 <p>A tile graph is an appropriate template to build this visualisation : squares delimits states and year as discrete scales. Indeed, data doesn’t contain the precise date when legal status change, thus years can be considered on discrete scale.</p>
 <pre class="r"><code>ggplot(data) + 
-  geom_tile(aes(fill=fct_relevel(`legal status`,&quot;Constitutional Ban&quot;,&quot;Statutory Ban&quot;,&quot;No Law&quot;, &quot;Legal&quot;),x=year, y=State),color=&quot;white&quot;, size=0.8)+
+  geom_tile(aes(fill=fct_relevel(`legal status`,&quot;Constitutional Ban&quot;,&quot;Statutory Ban&quot;,&quot;No Law&quot;, &quot;Legal&quot;),x=year, y=State),color=&quot;white&quot;, size=0.2)+
   scale_fill_manual(values = c(&quot;#e66101&quot;,&quot;#fdb863&quot;,&quot;grey&quot;,&quot;#5e3c99&quot;))+
   coord_equal()+
   labs(fill=&quot;Legal Status :&quot;, title=&quot;Same Sex Marriage Legal Status Evolution in USA since 1995&quot;)+
@@ -343,7 +343,7 @@ levels&lt;- data_f %&gt;%
 <div id="plot" class="section level3">
 <h3>Plot</h3>
 <pre class="r"><code>ggplot(data) + 
-  geom_tile(aes(fill=fct_relevel(`legal status`,&quot;Constitutional Ban&quot;,&quot;Statutory Ban&quot;,&quot;No Law&quot;, &quot;Legal&quot;),x=year, y=State),color=&quot;white&quot;, size=0.8)+
+  geom_tile(aes(fill=fct_relevel(`legal status`,&quot;Constitutional Ban&quot;,&quot;Statutory Ban&quot;,&quot;No Law&quot;, &quot;Legal&quot;),x=year, y=State),color=&quot;white&quot;, size=0.2)+
   scale_fill_manual(values = c(&quot;#e66101&quot;,&quot;#fdb863&quot;,&quot;grey&quot;,&quot;#5e3c99&quot;))+
   coord_equal()+
   scale_y_discrete(name=&quot;&quot;,limits=(levels))+

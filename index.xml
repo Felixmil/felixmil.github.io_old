@@ -29,8 +29,8 @@ library(RCurl)library(tidyverse)raw_data &amp;lt;- as_data_frame(read.csv(text
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://felixmil.github.io/about/</guid>
-      <description>@import url(&amp;lsquo;https://fonts.googleapis.com/css?family=Rasa:700&#39;); .about { font-style: italic; font-size:13rem; text-align:center; font-family: Helvetica Neue, serif; color:black; font-weight:900; } .about-title { font-size:3.5rem; text-align:left; font-family: Roboto; color:black; font-weight:500; } .about-txt { font-size:2.25rem; text-align:left; color:black; font-family: Helvetica Neue; color:#333333; } 
-Bonjour.  WHO AM I ?  Please, come back later for more details... or Follow me !</description>
+      <description>@import url(&amp;lsquo;https://fonts.googleapis.com/css?family=Rasa:700&#39;); @import url(&amp;lsquo;https://fonts.googleapis.com/css?family=Lora|Playfair+Display|Roboto&#39;); .col-md-12 .about { font-style: italic; font-size: 13rem; text-align: center; font-family: Playfair Display, serif; color: black; font-weight: 600; } .col-md-12 .about-title { font-size: 3.5rem; text-align: left; font-family: Playfair Display, serif; color: black; font-weight: 600; } .col-md-12 .about-txt { font-size: 2rem; text-align: left; color: black; font-family: Playfair Display, serif; font-style:italic; color: #333333; } 
+  Bonjour.  WHO AM I ?  Please, come back later for more details&amp;hellip;</description>
     </item>
     
     <item>

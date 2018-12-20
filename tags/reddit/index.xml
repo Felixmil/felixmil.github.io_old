@@ -18,9 +18,9 @@
       
       <guid>https://felixmil.github.io/blog/2018/02/25/2018-02-25-submission-for-r-dataisbeautiful-dataviz-battle-of-february/</guid>
       <description>This post reports the development process I carried for the DataViz battle of February 2018. The rules can be found in the link.
-Raw DataThis month, the data source is a on a github repo. It contains all same-sex marriage legal status for each states of the USA from 1995 to 2015.
-Import Data (from github)Found how to do it at Github/Opetchey
-library(RCurl)library(tidyverse)raw_data &amp;lt;- as_data_frame(read.csv(text=getURL(&amp;quot;https://raw.githubusercontent.com/zonination/samesmarriage/master/ssm.csv&amp;quot;)))str(raw_data) ## Classes &amp;#39;tbl_df&amp;#39;, &amp;#39;tbl&amp;#39; and &amp;#39;data.</description>
+Raw Data This month, the data source is a on a github repo. It contains all same-sex marriage legal status for each states of the USA from 1995 to 2015.
+ Import Data (from github) Found how to do it at Github/Opetchey
+library(RCurl) library(tidyverse) raw_data &amp;lt;- as_data_frame(read.csv(text=getURL(&amp;quot;https://raw.githubusercontent.com/zonination/samesmarriage/master/ssm.csv&amp;quot;))) str(raw_data)  ## Classes &amp;#39;tbl_df&amp;#39;, &amp;#39;tbl&amp;#39; and &amp;#39;data.</description>
     </item>
     
     <item>
@@ -30,9 +30,9 @@ library(RCurl)library(tidyverse)raw_data &amp;lt;- as_data_frame(read.csv(text
       
       <guid>https://felixmil.github.io/blog/2018/01/26/2018-01-20-first-article-and-entry-for-r-dataisbeautiful-dataviz/</guid>
       <description>As first article on this R, datascience and dataviz dedicated blog, I present to you my entry for the DataViz battle of January 2018. The rules can be found in the link.
-DataThis month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
-How I worked on thisFor this project I used :
-R forData importationData wrangling and cleaningModel analysisTableauData explorationGenerate the data dashboardSo let’s start with R !</description>
+Data This month, the data source is a .htm webpage containing several algae growthrates for several light and temperature conditions.
+ How I worked on this For this project I used :
+R for   Data importation Data wrangling and cleaning Model analysis  Tableau   Data exploration Generate the data dashboard  So let’s start with R !</description>
     </item>
     
   </channel>

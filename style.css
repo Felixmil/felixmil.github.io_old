@@ -232,34 +232,3 @@ ul {
   color: var(--pale-black);
   font-weight: 300;
 }
-
-/*
- * Solarized Dark 
- * http://ethanschoonover.com/solarized
- */
-
-pre, code { font-family: 'Roboto Mono', monospace ; font-weight: 300; }
-pre { background-color: var(--base03); color: var(--base1); }
-code.sourceCode .kw { color: var(--blue); font-weight: 700; } /* Keyword */
-code.sourceCode .dt { color: var(--cyan); } /* DataType */
-code.sourceCode .dv { color: var(--base01); } /* DecVal */
-code.sourceCode .bn { color: var(--orange); } /* BaseN */
-code.sourceCode .fl { color: var(--cyan); } /* Float */
-code.sourceCode .ch { color: var(--red); } /* Char */
-code.sourceCode .st { color: var(--green); } /* String */
-code.sourceCode .co { color: var(--base01); font-style: 100i; } /* Comment */
-code.sourceCode .ot { color: var(--base1); } /* Other */
-code.sourceCode .al { color: var(--green); font-weight: 700; } /* Alert */
-code.sourceCode .fu { color: var(--blue); } /* Function */
-code.sourceCode .er { color: var(--red); font-weight: 700; } /* Error */
-code.sourceCode .wa { color: var(--base1); font-weight: 700i; } /* Warning */
-code.sourceCode .cn { color: var(--orange); } /* Constant */
-code.sourceCode .sc { color: var(--red); } /* SpecialChar */
-code.sourceCode .vs { color: var(--cyan); } /* VerbatimString */
-code.sourceCode .ss { color: var(--cyan); } /* SpecialString */
-code.sourceCode .im { color: var(--red); } /* Import */
-code.sourceCode .va { color: var(--blue); } /* Variable */
-code.sourceCode .cf { color: var(--green); font-weight: 700; } /* ControlFlow */
-code.sourceCode .op { color: var(--yellow); } /* Operator */
-code.sourceCode .bu { color: var(--blue); } /* BuiltIn */
-code.sourceCode .ex { } /* Extension */

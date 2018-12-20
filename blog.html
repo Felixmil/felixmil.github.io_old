@@ -20,9 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,18 +176,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -289,145 +386,16 @@ entries will follow this format:
 --->
 <article>
 <h3>
-<a href="blog-uptake-fellowship-start.html">REFLECTIONS ON THE START OF MY DATA FELLOWSHIP WITH UPTAKE</a>
+<a href="blog-testwithclean.html">Blablabla</a>
 </h3>
 <div class="summary">
 <span><i class="fa fa-calendar"></i> <em>2018-03-21</em></span>
 <p>
-I can’t believe it’s been more than a week since I returned from my trip to Chicago. This was an incredible opportunity and before I start this post a few thank yous are in order: I really can’t thank <a href="www.uptake.com">Uptake</a> enough for being the kind of company that does more than just ‘have an mission statement’–having the motivation to start a philanthropic arm…
+Test…
 </p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-uptake-fellowship-start.html" role="button">Full Post</a></p>
+<p><a class="btn btn-outline-primary btn-sm" href="blog-testwithclean.html" role="button">Full Post</a></p>
 </div>
 </article>
-<article>
-<h3>
-<a href="blog-adv-of-code-day-one.html">ADVENT OF CODE IN R: DAY 1</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2017-12-01</em></span>
-<p>
-Over on the <code>rOpenSci</code> Slack, <a href="https://twitter.com/samfirke">Sam</a> asked if anyone was doing the (Advent of Code)[<a href="http://adventofcode.com/" class="uri">http://adventofcode.com/</a>] challenges in R. A few others said they were interested and I decided to go for it as well! My solutions…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="">Full Post</a></p>
-</div>
-</article>
-<article>
-<h3>
-<a href="blog-vaccine-heatmap.html">RECREATING THE VACCINE HEATMAP IN PLOTLY WITH R</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2016-10-14</em></span>
-<p>
-In order to get the data for this visualization you will need to create a free account over at <a href="www.website.com">Project Tyco</a>. You can download all the datasets if you like but I’m just going to use the Polio data set. These are the packages that I’m using:…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-building-site-with-rmarkdown.html">BUILDING THIS SITE WITH RSTUDIO AND RMARKDOWN</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2016-09-01</em></span>
-<p>
-There <em>may</em> be a special place in hell for blog posts like this that document how someone put together their static site website and hosted it on GitHub. Especially when there is really great <a href="rmarkdown.rstudio.com/rmarkdown_websites.html">documentation</a> availible that has been put together by really smart people. You can even look at Rmarkdown’s website source code on <a href="https://github.com/rstudio/rmarkdown/tree/gh-pages">GitHub</a> to see…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-the-move-to-r.html">THE MOVE TO R</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2016-08-29</em></span>
-<p>
-This is <em>not</em> a language wars type post. I do not think there is some Mordor forged language to <em>rule them all</em>. I debated whether or not to even write a post like this. Nevertheless, I had a chance to meet and talk to <a href="https://twitter.com/jakeporway">Jake Powray</a> from <a href="http://www.datakind.org">DataKind</a> at the <a href="http://www.dogooddata.com">DoGoodData</a> confrence and I…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-the-move-to-r.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-p-hacking-and-ontology.html">P-HACKING AND ONTOLOGY</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2015-08-25</em></span>
-<p>
-In a recent FiveTirtyEight post by <a href="https://twitter.com/cragcrest">Christie Aschwanden</a> about researcher bias and P-Hacking, there is a lovely interactive example of what variables a researcher would need include/exclude in the analysis in order to obtain a result that is statistically significant, i.e., <em>p≤.05</em>; thus worthy of publishing. The article brought many thoughts to mind…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-p-hacking-and-ontology.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-bar-chart-annotations-pandas-mpl.html">BAR CHART ANNOTATIONS WITH PANDAS AND MATPLOTLIB</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2015-06-15</em></span>
-<p>
-When I first started using Pandas, I loved how much easier it was to stick a plot method on a DataFrame or Series to get a better sense of what was going on. However, I was not very impressed with what the plots looked like. Any time I wanted to do something slightly different from the “Plotting” documentation on the pydata site, I found myself arm…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-blog-bar-chart-annotations-pandas-mpl.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-pandas-snippits.html">PANDAS SNIPPETS (EVOLVING)</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2015-04-03</em></span>
-<p>
-The goal of this post is to keep me from googling pandas questions that I’ve forgotten. I don’t know how many times I’ve looked at the results and seen five or more StackOverflow links that have clearly already been clicked on; I feel like Sisyphus when this happens! So, here is what I’m currently committing…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-pandas-snippits.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-first-kaggle-submission.html">FIRST KAGGLE SUBMISSION—RANDOM FOREST CLASSIFIER</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2015-01-32</em></span>
-<p>
-I have seen kaggle mentioned on twitter a lot; mostly by the data scientists and researchers I look up to, but there’s never been much confidence that the site was for me in any way—mostly because I was a long way from my dream data science job with yet so much to learn. Notwithstanding, I cannot help but try and hack my way to my destination! I think it’s a part of my learning process…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-first-kaggle-submission.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-python-journey.html">THE PYTHON JOURNEY—ONE SEMESTER WITH PYTHON 3.4</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2014-12-05</em></span>
-<p>
-This was <em>quite</em> a journey for me. I started the same way everyone else has; with my very <em>first</em> “Hello World” program written in Python 3…This was the first assignment for my Programming in Python course. I was not content to have it only print “Hello World”—no, I need to personalize it in some small way…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-python-journey.html">Full Post</a></p>
-</div>
-</article>
-<hr>
-<article>
-<h3>
-<a href="blog-foucaults-challenge.html">FOUCAULT’S CHALLENGE TO MODERNIST CLASSIFICATION</a>
-</h3>
-<div class="summary">
-<span><i class="fa fa-calendar"></i> <em>2013-09-04</em></span>
-<p>
-In Foucault’s <em>Les Mots et les choses</em> (The Order of Things), he notes a passage in Borges that, for him, demonstrates the limitations of taxonomic assertions in the face of exotic systems of thought—via Borges, he quotes a ‘certain Chinese encyclopedia’ in which it is written…
-</p>
-<p><a class="btn btn-outline-primary btn-sm" href="blog-foucaults-challenge.html" role="button">Full Post</a></p>
-</div>
-</article>
-<p><br></p>
 
   </div> <!-- articleBandContent -->
 </div> <!-- pageContent -->

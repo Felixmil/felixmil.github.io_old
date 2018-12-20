@@ -1,25 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Drafts on Discoveries of an AdventureR</title>
-    <link>https://felixmil.github.io/draft/</link>
-    <description>Recent content in Drafts on Discoveries of an AdventureR</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://felixmil.github.io/draft/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Opitimizing Mario Kart 8 Deluxe Gameplay</title>
-      <link>https://felixmil.github.io/draft/opitimizing-mario-kart-8-deluxe-gameplay/</link>
-      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://felixmil.github.io/draft/opitimizing-mario-kart-8-deluxe-gameplay/</guid>
-      <description>#Import data
-library(readxl)Char&amp;lt;- read_xlsx(&amp;quot;Mario Kart 8 Deluxe Stat.xlsx&amp;quot;,sheet = &amp;quot;Char&amp;quot;,col_names = T, col_types = c(&amp;quot;text&amp;quot;,rep(&amp;quot;numeric&amp;quot;, 12)))Kart &amp;lt;- read_xlsx(&amp;quot;Mario Kart 8 Deluxe Stat.xlsx&amp;quot;,sheet = &amp;quot;Kart&amp;quot;,col_names = T, col_types = c(&amp;quot;text&amp;quot;,rep(&amp;quot;numeric&amp;quot;, 12)))Tire &amp;lt;- read_xlsx(&amp;quot;Mario Kart 8 Deluxe Stat.xlsx&amp;quot;,sheet = &amp;quot;Tire&amp;quot;,col_names = T, col_types = c(&amp;quot;text&amp;quot;,rep(&amp;quot;numeric&amp;quot;, 12)))Glide &amp;lt;- read_xlsx(&amp;quot;Mario Kart 8 Deluxe Stat.xlsx&amp;quot;,sheet = &amp;quot;Glide&amp;quot;,col_names = T, col_types = c(&amp;quot;text&amp;quot;,rep(&amp;quot;numeric&amp;quot;, 12)))library(tidyverse)Char&amp;lt;-Char %&amp;gt;% add_column(Type=&amp;quot;Char&amp;quot;, .</description>
-    </item>
-    
-  </channel>
-</rss>

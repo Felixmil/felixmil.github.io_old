@@ -1,5 +1,5 @@
 ---
-title: "Félix MIL"
+title: "Felix MIL"
 output:
   html_document:
     excludes:

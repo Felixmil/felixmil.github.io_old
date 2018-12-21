@@ -1,5 +1,5 @@
 ---
-title: "CRITICAL DATA ANALYSIS"
+title: "Félix MIL"
 output:
   html_document:
     excludes:
@@ -9,7 +9,7 @@ output:
       after_body: footer.html
 ---
 
-> This site is an avenue for me to share either data analysis techniques I find novel or interesting and/or ideas or thoughts from my undergrad background in continental philosophy and French / German literature.  Sometimes I find these two areas of interest to overlap and other times I elect to dedicate a post to just one of my pursuits.
+> Test
 
 <br>
 <hr>

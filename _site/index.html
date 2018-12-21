@@ -15,14 +15,31 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -53,7 +70,6 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
@@ -91,33 +107,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -477,6 +493,19 @@ $(document).ready(function () {
 <br>
 <hr>
 <p><br></p>
+<p><a class="anchor" id="about"></a></p>
+<h1>
+ABOUT ME
+</h1>
+<p><img id="img-me" src="site_content/img/me.jpeg" width="350px" height="auto"></p>
+<blockquote>
+<p>Personnal presentation…</p>
+</blockquote>
+<p><br></p>
+<p><a class="btn btn-outline-secondary btn-lg" href="about.html" role="button">Full Bio</a></p>
+<br>
+<hr>
+<p><br></p>
 <p><a class="anchor" id="blog-posts"></a></p>
 <h1>
 BLOG
@@ -493,21 +522,7 @@ This is a new post’s summary…
 <p><a class="btn btn-outline-primary btn-sm" href="article.htmll" role="button">Full Post</a></p>
 </div>
 </article>
-<p><br></p>
 <p><a class="btn btn-outline-secondary btn-lg" href="blog.html" role="button">More Posts</a></p>
-<br>
-<hr>
-<p><br></p>
-<p><a class="anchor" id="about"></a></p>
-<h1>
-ABOUT ME
-</h1>
-<p><img id="img-me" src="site_content/img/me.jpeg" width="350px" height="auto"></p>
-<blockquote>
-<p>Personnal presentation…</p>
-</blockquote>
-<p><br></p>
-<p><a class="btn btn-outline-secondary btn-lg" href="about.html" role="button">Full Bio</a></p>
 <br>
 <hr>
 <p><br></p>
@@ -516,20 +531,66 @@ ABOUT ME
 VITAE
 </h1>
 <p><br></p>
-<div id="section-1" class="section level2">
-<h2><i class="fa fa-compass fa-lg"></i> Section 1</h2>
+<h3>
+<i class="fa fa-graduation-cap fa-lg"></i> Education
+</h3>
 <p><br></p>
 <ul>
-<i class="fa fa-angle-double-right fa-lg"></i> Item 1
+<i class="fa fa-angle-double-right fa-lg"></i> University of North Texas | Master of Science in Information Science (2013)
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> University of California, Los Angeles (UCLA) | Bachelor of Arts in French and comparative literature (2008 / double major)
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> Université de la Sorbonne Nouvelle (Paris III) | Student exchange (2006—2007)
 </ul>
 <p><br></p>
-</div>
-<div id="section-2" class="section level2">
-<h2><i class="fa fa-magic fa-lg"></i> Section 2</h2>
+<h3>
+<i class="fa fa-institution fa-lg"></i> Work Experience
+</h3>
+<p><br></p>
+<!-- SRHT / Data Analyst -->
+<ul>
+<h3>
+Skid Row Housing Trust_Los Angeles, CA
+</h3>
+<h4>
+Data Analyst / August 2015—Present
+</h4>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> provide strategic oversight to organization’s data collection systems and reporting processes through the collection and anslysis of data, reporting on and capturing of outcome metrics, and providing input to create a more data-driven culture
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> responsible for identifying, monitoring, and evaluating program and organizational outcomes to ensure compliance and effectiveness of programming
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> exploring open-source database alternatives to reduce organizational cost and fit within the IT ecosystem
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> liaise with internal departments for reporting/proposal questions, demographic data, and to answer questions about the Resident Programs department’s model and outcomes strategy
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> prepare recurring and special aggregated data reports and related decision support tools for Resident Programs department (and organization if needed) to support analytics value chain: data<i class="fa fa-arrow-right"></i>reporting<i class="fa fa-arrow-right"></i>analysis<i class="fa fa-arrow-right"></i>action<i class="fa fa-arrow-right"></i>value
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> oversee the application and implementation of assessment procedures; provides feedback and training in its use and answers questions about what is tracked and why
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> gathers, formats, and analyzes data using descriptive and inferential statics with visualizations of outcome metrics to enable the organization to tell its narrative with data
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> acting as core Efforts to Outcomes database administrator for the Resident Programs department; provides additional database support / programming support to internal departments as requested
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> working on data warehousing solutions to support executive dashbord to track high-level concerns
+</ul>
+<ul>
+<i class="fa fa-angle-double-right fa-lg"></i> liaise with external organizations, research institutions, and contractors / consultants interested in or currently conducting research with residents to answer questions about what we currently are using to track outcomes / offer support
+</ul>
+</ul>
 <p><br></p>
 <p><a class="btn btn-outline-secondary btn-lg" href="vitae.html" role="button">Full Vitae</a></p>
 <p><br></p>
-</div>
 
 </div> <!-- articleBandContent -->
 </div> <!-- pageContent -->

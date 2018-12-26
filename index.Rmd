@@ -9,14 +9,12 @@ output:
       after_body: footer.html
 ---
 
-Welcome note to the site
+> Welcome to my personnal site. The main content you’ll find here is a journal which tracks my ideas and progresses in the field of data science. These personal experiences reports are meant to be notes for me, sources for other R learners and perhaps knowledge for everyone. Also, if you wanted to know more about me, you're at the right place: please visit the [_About_](https://felixmil.github.io/about.html)  and [_Vitae_](https://felixmil.github.io/vitae.html) sections. The best way to reach me is to send me an [*email <i class="fas fa-envelope"></i>*](mailto:felixmil@outlook.com).
 
-<br>
 <hr>
 <br>
 
 <a class="anchor" id="blog-posts"></a>
-
 <h1>BLOG</h1>
 
 <br>
@@ -43,7 +41,7 @@ Welcome note to the site
 
 <img id="img-me" src="site_content/img/me.jpeg" width="350px" height="auto">
 
-> Personnal presentation...
+> Short personnal description 
 
 <br>
 

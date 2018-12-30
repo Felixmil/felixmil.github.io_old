@@ -8,7 +8,7 @@ output:
       before_body: navbar_home.html
       after_body: footer.html
 ---
-> Welcome to my personnal site !  👋 <br><br>The main content you’ll find here is a journal which tracks my ideas and progresses in the field of data science. These personal experiences reports are meant to be notes for me, sources for other R learners and perhaps knowledge for everyone. Also, if you wanted to know more about me, you're at the right place: please visit the <a href="#about" onclick="slowScroll()">About</a> and <a href="#vitae" onclick="slowScroll()">Vitae</a> sections.<br>The best way to reach me is to send me an [*email <i class="fas fa-envelope"></i>*](mailto:felixmil@outlook.com).
+> Welcome to my personnal site !  👋 <br><br>The main content you'll find here is a journal which tracks my ideas and progresses in the field of data science. These personal experiences reports are meant to be notes for me, sources for other R learners and perhaps knowledge for everyone. Also, if you wanted to know more about me, you're at the right place: please visit the <a href="#about" onclick="slowScroll()">About</a> and <a href="#vitae" onclick="slowScroll()">Vitae</a> sections.<br><br>The best way to reach me is to send me an [*email <i class="fas fa-envelope"></i>*](mailto:felixmil@outlook.com).
 
 <br>
 <hr>
@@ -47,13 +47,11 @@ output:
 
 <a class="btn btn-outline-secondary btn-lg" href="about.html" role="button">Full Bio</a>
 
-
 <br>
 <hr>
 <br>
 
 <a class="anchor" id="vitae"></a>
-
 <h1>VITAE</h1>
 
 <br>

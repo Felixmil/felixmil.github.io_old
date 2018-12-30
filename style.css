@@ -127,6 +127,7 @@ ul {
 #logo{
   height: auto;
   width: 3em;
+  max-width: 3em;
 }
 
 #rbmvFooter {
@@ -214,11 +215,17 @@ ul {
 
 .navbar-default .navbar-brand {
   color: var(--pale-black);
+  max-width: 5.7em;
 }
 
 .navbar-brand {
   padding: 3px 25px;
 }
+
+.navbar-brand>img {
+  max-width: 3em;
+}
+
 
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 

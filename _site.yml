@@ -1,4 +1,4 @@
-name: rbmv | Félix Mil
+name: FM | FÃ©lix Mil
 output_dir: '.'
 output:
   html_document:
@@ -8,5 +8,4 @@ output:
       after_body: footer.html
     css: style.css
     lib_dir: site_libs
-    self_contained: no
 
